@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Coming+Soon&family=Oooh+Baby&display=swap");
+
+h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  text-align: center;
+  color: rgb(65, 65, 65);
+  text-shadow: 2px 2px 4px rgb(147, 209, 237);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-box {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(65, 65, 65);
+  height: 30px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+#searchButton {
+  font-family: "Annie Use Your Telescope", cursive;
+  text-align: center;
+  background-color: rgb(65, 65, 65);
+  color: aliceblue;
+  border: none;
+  display: flex;
+  font-size: 20px;
+}
+
+.search-box:hover > #searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+#searchInput {
+  font-family: "Annie Use Your Telescope", cursive;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(245, 242, 244);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: list-item;
+  padding-top: 50px;
+}
+
+.play-button {
+  background-color: rgb(65, 65, 65);
+  border-radius: 40px;
+  font-family: "Annie Use Your Telescope", cursive;
+  color: rgb(245, 242, 244);
+}
