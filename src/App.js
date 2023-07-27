@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import SearchBox from "./SearchBox";
-import SearchResults from "./SearchResults";
+import SearchBox from "./component/SearchBox.jsx";
+import SearchResults from "./component/SearchResults.jsx";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
